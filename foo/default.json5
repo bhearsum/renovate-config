@@ -36,6 +36,7 @@
     // differently
     {
       "matchManagers": ["npm"],
+      "matchUpdateTypes": ["patch", "minor"],
       "groupName": "js dependencies"
     },
     // group all docker-related files together, as much as possible anyways
@@ -45,6 +46,7 @@
     // want to do by hand
     {
       "matchManagers": ["dockerfile", "docker-compose"],
+      "matchUpdateTypes": ["patch", "minor"],
       "groupName": "docker dependencies"
     }
   ],
